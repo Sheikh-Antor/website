@@ -1,0 +1,495 @@
+/* :default start */
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: oswald;
+}
+
+/* :default eds */
+
+/* header start  */
+
+header h1 {
+    font-family: Handlee;
+    color: lime;
+    padding-top: 14%;
+    text-transform: uppercase;
+
+}
+
+#navId {
+    background: white !important;
+
+}
+
+#imgLogoId{
+  border-radius:80px;
+ 
+}
+/* header ends */
+
+
+/* carousel-section start now */
+
+.carousel-item img {
+    width: 100% !important;
+    height: 90vh;
+
+}
+
+
+/*carousel ends here */
+
+
+
+
+.progress {
+    border-radius: 16px !important;
+    background: white !important;
+}
+
+.progress-bar {
+    border-radius: 16px !important;
+}
+F
+
+
+
+
+/* <!-- Services starts here --> */
+#servicesId{
+  
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:50px;
+}
+
+#hrId {
+    width: 200px;
+    border-bottom: 1px solid #009688;
+
+}
+
+.col-hover {
+    transition: .3s;
+    cursor: pointer;
+       color: #009688;
+    border-radius: 15px;
+    background:black;
+    transform:scale(.9)
+    ;
+    padding:20px
+}
+
+.col-hover:hover {
+ 
+  background:white;
+  color:black !important;
+
+
+
+}
+
+.icon-style {
+    transition: .3s;
+    padding:15px;
+     
+        
+            color: #009688;
+    
+  border: 2px solid #009688 !important;
+
+}
+
+.col-hover:hover .icon-style {
+
+ color: #009688;
+    
+  border: 2px solid #009688 !important;
+}
+
+/* <!-- Services ends here --> */
+
+/* <!-- team strts here --> */
+.imgDiv{
+    position: relative;
+}
+.imgDiv img{
+    height: 140px;
+    filter: grayscale(1);
+    transition: .3s;
+}
+
+/* .ul{
+    position:absolute;
+    list-style:none;
+     
+    bottom:5%;
+  
+} */
+/* .ul li {
+   display:inline-block;
+   
+
+} */
+/* .ul li a{
+     opacity: 0;
+    font-size:20px;
+     display:block;
+     padding: 6px;
+     margin-left:10px
+} */
+ 
+
+
+.card{
+    transition: 3s;
+    padding-top:30px ;
+    transform:scale(.8);
+     box-shadow: 6px 18px 8px #00000085;
+}
+ .card:hover{
+   transform:scale(.9)rotateY(360deg)
+ }
+
+.card:hover .imgDiv img{
+    filter: grayscale(0);
+}
+
+.card-body{
+    font-size: 14px;
+    color:black;
+    font-family: oswald;
+}
+/* <!-- team off here --> */
+
+
+
+
+
+
+
+/* <!-- Contact section start here --> */
+
+
+#contactId{
+    background: 
+    linear-gradient(#00000087,black),url('https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size:cover;
+    background-position:center;
+    padding:60px
+}
+
+
+/* <!-- Contact section ends here --> */
+
+
+
+
+/* <!-- price section starts here --> */
+
+
+
+.singlePirceBox{
+  
+    transition: .3s;
+    border-radius: 50px !important;
+    
+    transform: scale(.9);
+    
+    box-shadow: 6px 18px 8px black;
+} 
+
+
+.singlePirceBox:hover{
+    transform: scale(1);
+
+}
+
+
+/* <!-- price section starts here --> */
+
+
+ /* Testimonials section starts  here  */
+.profile{
+     
+    background:#e9ecef;
+   
+}
+.profile h5{
+  color:#007bff;
+    
+}
+
+.profile h5 span{
+  color:black;
+    font-size:13px
+}
+.proImg{
+    position:relative;
+    top:-30px;
+   left:40%;
+     
+    
+  
+   
+    margin:auto;
+}
+
+.proImg img{
+    width: 70px;
+    padding:8px
+}
+  /* Testimonials section eds here  */
+
+
+
+
+
+
+
+
+
+  #footerId{
+      background:#03070ade;
+  }
+  
+
+  .list{
+      list-style-type:none !important;
+  }
+  .list li a{
+      color:#ffffff9c;
+    
+  }
+
+  .Social{
+      list-style: none;;
+  }
+
+
+  #inputId{
+    background:#24272a;;
+    border:none;
+    border-bottom: 2px solid #ffffff61;
+    outline:none;
+  }
+  #inputId::placeholder{
+    
+    padding:
+  }
+
+  .CopyRight{
+    padding-top:20px;
+    border-top:2px solid #ffffff63;
+  }
+
+  .fa-2x{
+      transition: .6s;
+   font-size: 28px !important;
+  }
+  .fa-2x:hover{
+   color:magenta;
+   transform:rotateY(360deg)scale(1.5);
+  }
+
+
+
+
+
+
+
+
+
+
+/* Our Team starts   */
+
+.imgBox{
+  width:100%;
+  height:200px;
+  background:url("https://images.pexels.com/photos/2253415/pexels-photo-2253415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 3s;
+      border-radius:20px;
+      filter:grayscale(1);
+}
+
+#imgBoxId2{
+    background:url("https://www.pexels.com/photo/selective-focus-photography-of-blue-denim-collared-top-1903883/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;
+ border-radius:20px;
+ filter:grayscale(1);
+    
+}
+ 
+#imgBoxId1{
+    background:url("https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;
+ border-radius:20px;
+ filter:grayscale(1);
+
+    
+}
+ 
+
+
+ 
+#imgBoxId2{
+    background:url("https://images.pexels.com/photos/2859616/pexels-photo-2859616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;
+ border-radius:20px;
+ filter:grayscale(1);
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+.bdr{
+    border:2px solid #0000003d;
+  border-radius:20px;
+  background:#8bc34a26;
+  transition:.5s;
+  color:black !important;
+  transform: scale(.8);
+
+}
+
+.bdr:hover{
+  box-shadow: 6px 18px 8px black;
+  transform:scale(1)
+}
+.bdr:hover .imgBox,#imgBoxId4,#imgBoxId1,#imgBoxId2{
+/*     background: linear-gradient(#00000075,#00000075),url(img/imaes.jpg); */
+    border-radius:20px;
+     background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform:rotateY(360deg);
+     filter:grayscale(0);
+}
+
+.bdr:hover #imgBoxId1{
+    transform: rotate(360deg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:rotateY(360deg);
+       filter:grayscale(0);
+}
+
+.list2 {
+    list-style: none;
+    
+ opacity:0;
+    transition:.6s;
+}
+.list2  li a{
+  color:#FFC107 !important;
+}
+.bdr:hover .list2{
+  opacity:1;
+  transform:scale(1.1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* game for coding starts */
+.square{
+    width:100px;
+    height: 100px;
+    background:purple;
+ margin: 5px;
+ float: left;
+ border-radius: 30px;
+ 
+
+ 
+ 
+
+}
+#head{background-color:#17a2b8;
+color:black;
+ 
+border-radius: 15px;
+padding: 20px 10px;
+margin-left: -40px !important;
+}
+.displayColor{
+    background-color: green;
+    font-size: 30px !important;
+}
+ 
+.selected{
+background-color:red !important;
+ }
+
+
+ #easy{
+    background-color:green;
+     }
+
+ #hard{
+    background-color:red;
+ }
+
+ #displayColor{
+     font-size: 40px !important;
+     margin-left: -40px;
+     text-align: center !important;
+     color:lime!important
+    
+ }
+ .con{
+     background:black;
+     height: 100vh;
+ }
+
+
+ /* game for coding ends */
